@@ -2,7 +2,7 @@
 
 Part of the IEEE Workshop on Big Data Metadata and Management (BDGMM 2018) taking place in Berlin, Mar 19-20, 2018 in conjunction with [RDA Plenary 11](https://www.rd-alliance.org/plenaries/rda-eleventh-plenary-meeting-berlin-germany).
 
-The information on this page is not yet complete. More will be added soon, so please check back regularly to find more details, examples and resources.
+**The information on this page is not yet complete!** More will be added soon, so please check back regularly to find more details, examples and resources.
 
 ## Background
 
