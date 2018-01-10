@@ -36,6 +36,6 @@ There are several `.tar.bz2` files, which combined provide the content which is 
 `TODO`
 
 ## Contact
-* [Matej Durco](https://www.oeaw.ac.at/acdh/team/current-team/matej-durco/)
-* [Menzo Windhouwer](https://www.clarin.eu/person/menzo-windhouwer)
-* [Twan Goosen](https://www.clarin.eu/person/twan-goosen)
+* [Matej Durco](https://www.oeaw.ac.at/acdh/team/current-team/matej-durco/) (Austrian Centre for Digital Humanities)
+* [Menzo Windhouwer](https://www.clarin.eu/person/menzo-windhouwer) (CLARIN ERIC/Meertens Instituut)
+* [Twan Goosen](https://www.clarin.eu/person/twan-goosen) (CLARIN ERIC)
