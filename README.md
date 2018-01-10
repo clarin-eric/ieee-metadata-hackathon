@@ -24,7 +24,8 @@ There are several `.tar.bz2` files, which combined provide the content which is 
 ### API endpoints
 
 * [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint of CMD2RDF: http://cmdi2rdf.meertens.knaw.nl/cmd2rdf
-* [Solr](https://lucene.apache.org/solr/) index of the [Virtual Language Observatory](https://vlo.clarin.eu): TBA
+* [Solr](https://lucene.apache.org/solr/) index of the [Virtual Language Observatory](https://vlo.clarin.eu): http://rs236235.rs.hosteurope.de:8283/solr
+  * Query example: [vlo-index/select?q=*:*](http://rs236235.rs.hosteurope.de:8283/solr/vlo-index/select?q=*:*)
 
 ### Other data sources
 * CLARIN Component Registry: https://www.clarin.eu/componentregistry 
