@@ -24,8 +24,9 @@ There are several `.tar.bz2` files, which combined provide the content which is 
 ### API endpoints
 
 * [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint of CMD2RDF: http://cmdi2rdf.meertens.knaw.nl/cmd2rdf
-* [Solr](https://lucene.apache.org/solr/) index of the Virtual Language Observatory ([hackathon instance](http://hackathon.cmdi.clarin.eu/vlo)): `http://hackathon.cmdi.clarin.eu/solr/vlo-index`
-  * Query example: [`vlo-index/select?q=*:*`](http://hackathon.cmdi.clarin.eu/solr/vlo-index/select?q=*:*)
+* [Solr](https://lucene.apache.org/solr/) index of the Virtual Language Observatory ([hackathon instance](http://hackathon.cmdi.clarin.eu/vlo)): `http://hackathon.cmdi.clarin.eu/solr/vlo-index/select`
+  * An [Extended DisMax query parser](https://lucene.apache.org/solr/guide/7_0/the-extended-dismax-query-parser.html) is registered at this URL
+  * Query example: [`select?q=description:ieee&rows=5`](http://hackathon.cmdi.clarin.eu/solr/vlo-index/select?q=description:ieee&rows=5)
 
 ### Other data sources
 * CLARIN Component Registry: https://www.clarin.eu/componentregistry 
