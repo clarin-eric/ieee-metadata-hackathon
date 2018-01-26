@@ -35,7 +35,7 @@ There are several `.tar.bz2` files, which combined provide the content which is 
 
 ### Examples
 
-`TODO`
+See the [examples](./examples) folder
 
 ## Contact
 * [Matej Durco](https://www.oeaw.ac.at/acdh/team/current-team/matej-durco/) (Austrian Centre for Digital Humanities)
