@@ -1,6 +1,8 @@
 # CLARIN metadata hackathon
 
-Part of the IEEE Workshop on Big Data Metadata and Management (BDGMM 2018) taking place in Berlin, Mar 19-20, 2018 in conjunction with [RDA Plenary 11](https://www.rd-alliance.org/plenaries/rda-eleventh-plenary-meeting-berlin-germany).
+Part of the [IEEE Workshop on Big Data Metadata and Management (BDGMM 2018)](https://bigdatawg.nist.gov/bdgmm2018.html)
+taking place in Berlin, Mar 19-20, 2018 in conjunction with [RDA Plenary 11](https://www.rd-alliance.org/plenaries/rda-eleventh-plenary-meeting-berlin-germany).
+Please not that registration is required - see the [event page](https://bigdatawg.nist.gov/bdgmm2018.html) for details.
 
 **The information on this page is not yet complete!** More will be added soon, so please check back regularly to find more details, examples and resources.
 
@@ -8,7 +10,7 @@ Part of the IEEE Workshop on Big Data Metadata and Management (BDGMM 2018) takin
 
 [CLARIN](https://www.clarin.eu) makes digital language resources available to scholars, researchers, students and citizen-scientists from all disciplines, especially in the humanities and social sciences. CLARIN harvests metadata (and converts it to CMDI where necessary) a few times per week from many sources. This harvested metadata constitutes the data set for this hackathon. Provided metadata adheres to the CMDI standard - see [clarin.eu/cmdi](https://www.clarin.eu/cmdi). A post-processed, searchable view of this metadata can be found in CLARIN's [Virtual Language Observatory](https://vlo.clarin.eu) (VLO).
 
-More on IEEE, the organisers of the workshop this hackathon is part of, and big data can be found at [bigdata.ieee.org](https://bigdata.ieee.org/).
+More on IEEE, the organisers of the workshop this hackathon is part of, and big data can be found on the [event page](https://bigdatawg.nist.gov/bdgmm2018.html) and at [bigdata.ieee.org](https://bigdata.ieee.org/).
 
 ## Data sets
 
