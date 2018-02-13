@@ -41,6 +41,13 @@ Individual files can also be browsed and accessed via [alpha-vlo.clarin.eu/data/
 
 See the [examples](./examples) folder
 
+## Docker
+
+We prepared a docker-compose configuration that allows you to quickly set up a private
+instance of the VLO and to import your own data into it. This might be helpful for
+experimentation and provide improved performance. See the [docker-compose](./docker-compose)
+folder for more information.
+
 ## Contact
 * [Matej Durco](https://www.oeaw.ac.at/acdh/team/current-team/matej-durco/) (Austrian Centre for Digital Humanities)
 * [Menzo Windhouwer](https://www.clarin.eu/person/menzo-windhouwer) (CLARIN ERIC/Meertens Instituut)
