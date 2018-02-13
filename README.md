@@ -23,6 +23,8 @@ There are several `.tar.bz2` files, which combined provide the content which is 
 * [europeana.tar.bz2](https://vlo.clarin.eu/resultsets/snapshot/20180105/europeana.tar.bz2): metadata harvested from [Europeana](https://www.europeana.eu/), describing selected digital cultural heritage objects
 * [others.tar.bz2](https://vlo.clarin.eu/resultsets/snapshot/20180105/others.tar.bz2): metadata harvested from other selected sources, describing language resources relevant to humanities and social humanities scholars
 
+Individual files can also be browsed and accessed via [alpha-vlo.clarin.eu/data/snapshot/20180105](http://alpha-vlo.clarin.eu/data/snapshot/20180105/).
+
 ### API endpoints
 
 * [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint of CMD2RDF: http://cmdi2rdf.meertens.knaw.nl/cmd2rdf
