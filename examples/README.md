@@ -23,6 +23,18 @@ is a general profile for the description of a spoken/speech corpus. It was creat
 
 * [Curation module page for the SpokenCorpusProfile profile](https://clarin.oeaw.ac.at/curate/#!ResultView/profile/id/clarin.eu:cr1:p_1422885449343)
 
+### Challenge suggestions
+
+* The metadata in this example set is of good quality. Therefore it lends itself to being
+'mashed up' with other data sets. For example, some of the metadata records provide
+_location_ information (e.g. [Sprachvariation in Norddeutschland (SiN)](http://hackathon.cmdi.clarin.eu/vlo/record?q=_componentProfile:SpokenCorpusProfile&docId=http_58__47__47_hdl.handle.net_47_11022_47_0000-0000-7EE2-4)).
+This information is not available for filtering or shown prominently in the VLO. However
+the information is available in the CMDI records and can be used to organise records
+geographically for presentation and retrieval purposes. 
+* Alternatively, the geographical information in the records could be aligned and with a
+geographical database such as [GeoNames](http://www.geonames.org/) and annotated 
+accordingly, thus enriching the metadata.
+
 ## Set 2: *Wolfenbuettel Digital Library* records
 
 As described on its [website](http://www.hab.de/en/home/library/wolfenbuettel-digital-library.html), "[in] the Wolfenbüttel Digital Library the Herzog August Bibliothek presents in digital facsimile selected items from its collections which are rare, outstanding, frequently used, or currently most relevant for research".
@@ -55,6 +67,12 @@ not provided in the metadata
 
 Note that the [metadata in METS format](http://oai.hab.de/?verb=GetRecord&metadataPrefix=mets&identifier=oai:diglib.hab.de:ppn_656629045)
 is much more complete and semantically transparent.
+
+### Challenge suggestions
+
+* Content language detection (add missing `xml:lang` attributes).
+* Metadata completion based on external sources (CMDI vs METS - see above).
+* Harmonisation of values in the 'subject' facet within the collection.
 
 ## Set 3: *Digital Library of Slovenia/Europeana* records
 
@@ -113,3 +131,11 @@ that the text content is in Slovenian.
 This data set, especially in EDM form, or in CMDI form making use of the concept links
 defined in the [profile](https://catalog.clarin.eu/ds/ComponentRegistry#/?itemId=clarin.eu%3Acr1%3Ap_1475136016208&registrySpace=public),
 is highly suitable for data mashups on basis of linked data approaches.
+
+### Challenge suggestions
+
+* Content language detection: not all values have proper content language annotations
+(`@xml:lang`), which would be preferable as the metadata is clearly multilingual.
+* The linked resources are accessible in various formats, including plain text, which
+opens up interesting possibilities. For example, you may be able to train a model that
+can generate (aspects of) metadata based on the resource content.
