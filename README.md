@@ -27,7 +27,8 @@ Individual files can also be browsed and accessed via [alpha-vlo.clarin.eu/data/
 
 ### API endpoints
 
-* [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint of CMD2RDF: http://cmdi2rdf.meertens.knaw.nl/cmd2rdf
+* [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint of CMD2RDF: http://147.228.242.24/cmd2rdf/
+  * currently includes only the CMDI 1.1 records of the CLARIN centres
 * [Solr](https://lucene.apache.org/solr/) index of the Virtual Language Observatory ([hackathon instance](http://hackathon.cmdi.clarin.eu/vlo)): `http://hackathon.cmdi.clarin.eu/solr/vlo-index/select`
   * An [Extended DisMax query parser](https://lucene.apache.org/solr/guide/7_0/the-extended-dismax-query-parser.html) is registered at this URL
   * Query example: [`select?q=description:ieee&rows=5`](http://hackathon.cmdi.clarin.eu/solr/vlo-index/select?q=description:ieee&rows=5)
